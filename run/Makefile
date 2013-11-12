@@ -1,12 +1,10 @@
-## ### GENERAL setup:
-SEED=1 # Random seed
+ ### GENERAL setup:
 NCPU=10 # Number of threads/processes to use for parallel computations
 SRILM_PATH=/opt/srilm/bin/i686-m64
 export PATH := ../../src:.:${SRILM_PATH}:${PATH} # Binaries in the bin directory
 
 ## LM Experiments
 NARGS=6
-NCPU=1
 
 all: ppl.out
 
