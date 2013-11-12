@@ -10,7 +10,7 @@ Directory Structure:
 
 How to run?
 
-* Set SRILM path in +run/Makefile+
+* Set SRILM path in run/Makefile
 * Copy your LM training file and name it as train.tok.gz 
 * Copy your test file and name it as test.tok.gz (this file is used to calculate perplexity)
 * Edit the vocabulary threshold according to your needs  
