@@ -1,7 +1,7 @@
 bestLM
 ======
 
-Run SRILM with different options to find best language model(LM) given the training and test data.
+Run SRILM with different options to find the best language model(LM) given the training and test data.
 
 Directory Structure:
   src/  Scripts
