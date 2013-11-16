@@ -19,4 +19,4 @@ unknown.out: vocab.gz test.tok.gz
 	unknown.pl $< test.tok.gz > $@
 
 clean:
-	rm -rf lm*_*_* ppl.out unknown.out 
+	rm -rf lm*_*_* ppl.out unknown.out  vocab.gz
